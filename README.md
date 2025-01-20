@@ -1,0 +1,3 @@
+This repository demonstrates a common yet subtle bug in PHP: the silent handling of undefined array keys.  When you try to access a non-existent key in a PHP array, the language returns NULL without issuing any error or warning. This can cause significant problems in the application's logic and is hard to debug.
+
+The `bug.php` file shows the buggy code, while `bugSolution.php` provides a robust solution.  The README explains the issue in more detail and suggests best practices for avoiding this type of error.
